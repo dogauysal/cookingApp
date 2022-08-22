@@ -1,0 +1,30 @@
+{
+  "recipes": [
+    {
+      "id": "42",
+      "name": "Carne Asada Bowl",
+      "price": 15,
+      "ingredients": [
+        "salt",
+        "chicken",
+        "steak",
+        "farro",
+        "black_beans",
+        "guacamole"
+      ]
+    },
+    {
+      "id": "84",
+      "name": "Pollo Quesedilla",
+      "price": 12,
+      "ingredients": [
+        "salt",
+        "chicken",
+        "black_beans",
+        "guacamole",
+        "cheese"
+      ]
+    }
+  ],
+  "stocks": []
+}

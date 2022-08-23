@@ -1,7 +1,7 @@
 {
-  "recipes": [
+  "recipe": [
     {
-      "id": "42",
+      "id": 42,
       "name": "Carne Asada Bowl",
       "price": 15,
       "ingredients": [
@@ -11,10 +11,12 @@
         "farro",
         "black_beans",
         "guacamole"
-      ]
+      ],
+      "has_cheese": false,
+      "has_salt": true
     },
     {
-      "id": "84",
+      "id": 84,
       "name": "Pollo Quesedilla",
       "price": 12,
       "ingredients": [
@@ -23,8 +25,35 @@
         "black_beans",
         "guacamole",
         "cheese"
-      ]
+      ],
+      "has_cheese": true,
+      "has_salt": true
+    },
+    {
+      "id": 55,
+      "name": "Schnitzel",
+      "price": 8,
+      "ingredients": [
+        "salt",
+        "chicken",
+        "black_beans",
+        "guacamole",
+        "cheese"
+      ],
+      "has_cheese": true,
+      "has_salt": true
     }
   ],
-  "stocks": []
+  "stock": [
+    {
+      "id": "1",
+      "name": "Chicken",
+      "kg": 3
+    },
+    {
+      "id": "2",
+      "name": "Steak",
+      "kg": 5
+    }
+  ]
 }

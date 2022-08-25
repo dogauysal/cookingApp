@@ -1,0 +1,3516 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipeItem renders correctly 1`] = `<label />`;
+
+exports[`recipeitem recipeitem renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderRadius": 20,
+      "borderWidth": 1,
+      "flex": 1,
+      "margin": 3,
+      "maxWidth": "50%",
+      "padding": 5,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": undefined,
+          "borderBottomColor": undefined,
+          "borderBottomEndRadius": undefined,
+          "borderBottomLeftRadius": undefined,
+          "borderBottomRightRadius": undefined,
+          "borderBottomStartRadius": undefined,
+          "borderBottomWidth": undefined,
+          "borderColor": undefined,
+          "borderEndColor": undefined,
+          "borderEndWidth": undefined,
+          "borderLeftColor": undefined,
+          "borderLeftWidth": undefined,
+          "borderRadius": undefined,
+          "borderRightColor": undefined,
+          "borderRightWidth": undefined,
+          "borderStartColor": undefined,
+          "borderStartWidth": undefined,
+          "borderStyle": undefined,
+          "borderTopColor": undefined,
+          "borderTopEndRadius": undefined,
+          "borderTopLeftRadius": undefined,
+          "borderTopRightRadius": undefined,
+          "borderTopStartRadius": undefined,
+          "borderTopWidth": undefined,
+          "borderWidth": undefined,
+          "bottom": undefined,
+          "end": undefined,
+          "height": undefined,
+          "left": undefined,
+          "margin": undefined,
+          "marginBottom": undefined,
+          "marginEnd": undefined,
+          "marginHorizontal": undefined,
+          "marginLeft": undefined,
+          "marginRight": undefined,
+          "marginStart": undefined,
+          "marginTop": undefined,
+          "marginVertical": undefined,
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "opacity": undefined,
+          "overflow": undefined,
+          "padding": undefined,
+          "paddingBottom": undefined,
+          "paddingEnd": undefined,
+          "paddingHorizontal": undefined,
+          "paddingLeft": undefined,
+          "paddingRight": undefined,
+          "paddingStart": undefined,
+          "paddingTop": undefined,
+          "paddingVertical": undefined,
+          "position": undefined,
+          "right": undefined,
+          "start": undefined,
+          "top": undefined,
+          "width": undefined,
+          "zIndex": undefined,
+        },
+        Array [
+          Object {
+            "alignContent": undefined,
+            "alignItems": undefined,
+            "alignSelf": undefined,
+            "flex": undefined,
+            "flexBasis": undefined,
+            "flexDirection": "column",
+            "flexGrow": undefined,
+            "flexShrink": undefined,
+            "flexWrap": undefined,
+            "justifyContent": undefined,
+          },
+          Object {
+            "flex": 1,
+            "flexDirection": "column",
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": 4,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": 4,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Array [
+              Object {
+                "marginBottom": 4,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 16,
+              "letterSpacing": 0.5,
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Carne Asada Bowl
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": undefined,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "backgroundColor": "#E0E0E0",
+              "height": 1,
+            },
+            Array [
+              Array [
+                undefined,
+                undefined,
+              ],
+              Array [
+                Object {
+                  "marginBottom": 4,
+                },
+                undefined,
+              ],
+            ],
+          ],
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": undefined,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "flex": 3,
+              "flexDirection": "column",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "marginBottom": 4,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          salt
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          chicken
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          steak
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          farro
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          black_beans
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          guacamole
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": undefined,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "backgroundColor": "#E0E0E0",
+              "height": 1,
+            },
+            Array [
+              Array [
+                undefined,
+                undefined,
+              ],
+              Array [
+                Object {
+                  "marginBottom": 4,
+                },
+                undefined,
+              ],
+            ],
+          ],
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": 4,
+            "paddingEnd": undefined,
+            "paddingHorizontal": 4,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "flex-end",
+            },
+            Array [
+              null,
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 16,
+              "letterSpacing": 0.5,
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "alignItems": "flex-end",
+              "color": "#389526",
+              "fontSize": 15,
+              "textAlign": "right",
+            },
+          ]
+        }
+      >
+        Price: $
+        15
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`recipeitem renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderRadius": 20,
+      "borderWidth": 1,
+      "flex": 1,
+      "margin": 3,
+      "maxWidth": "50%",
+      "padding": 5,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": undefined,
+          "borderBottomColor": undefined,
+          "borderBottomEndRadius": undefined,
+          "borderBottomLeftRadius": undefined,
+          "borderBottomRightRadius": undefined,
+          "borderBottomStartRadius": undefined,
+          "borderBottomWidth": undefined,
+          "borderColor": undefined,
+          "borderEndColor": undefined,
+          "borderEndWidth": undefined,
+          "borderLeftColor": undefined,
+          "borderLeftWidth": undefined,
+          "borderRadius": undefined,
+          "borderRightColor": undefined,
+          "borderRightWidth": undefined,
+          "borderStartColor": undefined,
+          "borderStartWidth": undefined,
+          "borderStyle": undefined,
+          "borderTopColor": undefined,
+          "borderTopEndRadius": undefined,
+          "borderTopLeftRadius": undefined,
+          "borderTopRightRadius": undefined,
+          "borderTopStartRadius": undefined,
+          "borderTopWidth": undefined,
+          "borderWidth": undefined,
+          "bottom": undefined,
+          "end": undefined,
+          "height": undefined,
+          "left": undefined,
+          "margin": undefined,
+          "marginBottom": undefined,
+          "marginEnd": undefined,
+          "marginHorizontal": undefined,
+          "marginLeft": undefined,
+          "marginRight": undefined,
+          "marginStart": undefined,
+          "marginTop": undefined,
+          "marginVertical": undefined,
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "opacity": undefined,
+          "overflow": undefined,
+          "padding": undefined,
+          "paddingBottom": undefined,
+          "paddingEnd": undefined,
+          "paddingHorizontal": undefined,
+          "paddingLeft": undefined,
+          "paddingRight": undefined,
+          "paddingStart": undefined,
+          "paddingTop": undefined,
+          "paddingVertical": undefined,
+          "position": undefined,
+          "right": undefined,
+          "start": undefined,
+          "top": undefined,
+          "width": undefined,
+          "zIndex": undefined,
+        },
+        Array [
+          Object {
+            "alignContent": undefined,
+            "alignItems": undefined,
+            "alignSelf": undefined,
+            "flex": undefined,
+            "flexBasis": undefined,
+            "flexDirection": "column",
+            "flexGrow": undefined,
+            "flexShrink": undefined,
+            "flexWrap": undefined,
+            "justifyContent": undefined,
+          },
+          Object {
+            "flex": 1,
+            "flexDirection": "column",
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": 4,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": 4,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Array [
+              Object {
+                "marginBottom": 4,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 16,
+              "letterSpacing": 0.5,
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Carne Asada Bowl
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": undefined,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "backgroundColor": "#E0E0E0",
+              "height": 1,
+            },
+            Array [
+              Array [
+                undefined,
+                undefined,
+              ],
+              Array [
+                Object {
+                  "marginBottom": 4,
+                },
+                undefined,
+              ],
+            ],
+          ],
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": undefined,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "flex": 3,
+              "flexDirection": "column",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "marginBottom": 4,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          salt
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          chicken
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          steak
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          farro
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          black_beans
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          guacamole
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": undefined,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "backgroundColor": "#E0E0E0",
+              "height": 1,
+            },
+            Array [
+              Array [
+                undefined,
+                undefined,
+              ],
+              Array [
+                Object {
+                  "marginBottom": 4,
+                },
+                undefined,
+              ],
+            ],
+          ],
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": 4,
+            "paddingEnd": undefined,
+            "paddingHorizontal": 4,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "flex-end",
+            },
+            Array [
+              null,
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 16,
+              "letterSpacing": 0.5,
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "alignItems": "flex-end",
+              "color": "#389526",
+              "fontSize": 15,
+              "textAlign": "right",
+            },
+          ]
+        }
+      >
+        Price: $
+        15
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly when recipe prop added 1`] = `
+<View
+  style={
+    Object {
+      "borderRadius": 20,
+      "borderWidth": 1,
+      "flex": 1,
+      "margin": 3,
+      "maxWidth": "50%",
+      "padding": 5,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": undefined,
+          "borderBottomColor": undefined,
+          "borderBottomEndRadius": undefined,
+          "borderBottomLeftRadius": undefined,
+          "borderBottomRightRadius": undefined,
+          "borderBottomStartRadius": undefined,
+          "borderBottomWidth": undefined,
+          "borderColor": undefined,
+          "borderEndColor": undefined,
+          "borderEndWidth": undefined,
+          "borderLeftColor": undefined,
+          "borderLeftWidth": undefined,
+          "borderRadius": undefined,
+          "borderRightColor": undefined,
+          "borderRightWidth": undefined,
+          "borderStartColor": undefined,
+          "borderStartWidth": undefined,
+          "borderStyle": undefined,
+          "borderTopColor": undefined,
+          "borderTopEndRadius": undefined,
+          "borderTopLeftRadius": undefined,
+          "borderTopRightRadius": undefined,
+          "borderTopStartRadius": undefined,
+          "borderTopWidth": undefined,
+          "borderWidth": undefined,
+          "bottom": undefined,
+          "end": undefined,
+          "height": undefined,
+          "left": undefined,
+          "margin": undefined,
+          "marginBottom": undefined,
+          "marginEnd": undefined,
+          "marginHorizontal": undefined,
+          "marginLeft": undefined,
+          "marginRight": undefined,
+          "marginStart": undefined,
+          "marginTop": undefined,
+          "marginVertical": undefined,
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "opacity": undefined,
+          "overflow": undefined,
+          "padding": undefined,
+          "paddingBottom": undefined,
+          "paddingEnd": undefined,
+          "paddingHorizontal": undefined,
+          "paddingLeft": undefined,
+          "paddingRight": undefined,
+          "paddingStart": undefined,
+          "paddingTop": undefined,
+          "paddingVertical": undefined,
+          "position": undefined,
+          "right": undefined,
+          "start": undefined,
+          "top": undefined,
+          "width": undefined,
+          "zIndex": undefined,
+        },
+        Array [
+          Object {
+            "alignContent": undefined,
+            "alignItems": undefined,
+            "alignSelf": undefined,
+            "flex": undefined,
+            "flexBasis": undefined,
+            "flexDirection": "column",
+            "flexGrow": undefined,
+            "flexShrink": undefined,
+            "flexWrap": undefined,
+            "justifyContent": undefined,
+          },
+          Object {
+            "flex": 1,
+            "flexDirection": "column",
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": 4,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": 4,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Array [
+              Object {
+                "marginBottom": 4,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 16,
+              "letterSpacing": 0.5,
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Carne Asada Bowl
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": undefined,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "backgroundColor": "#E0E0E0",
+              "height": 1,
+            },
+            Array [
+              Array [
+                undefined,
+                undefined,
+              ],
+              Array [
+                Object {
+                  "marginBottom": 4,
+                },
+                undefined,
+              ],
+            ],
+          ],
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": undefined,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "flex": 3,
+              "flexDirection": "column",
+              "justifyContent": "center",
+            },
+            Array [
+              Object {
+                "marginBottom": 4,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          salt
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          chicken
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          steak
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          farro
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          black_beans
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderBottomColor": undefined,
+              "borderBottomEndRadius": undefined,
+              "borderBottomLeftRadius": undefined,
+              "borderBottomRightRadius": undefined,
+              "borderBottomStartRadius": undefined,
+              "borderBottomWidth": undefined,
+              "borderColor": undefined,
+              "borderEndColor": undefined,
+              "borderEndWidth": undefined,
+              "borderLeftColor": undefined,
+              "borderLeftWidth": undefined,
+              "borderRadius": undefined,
+              "borderRightColor": undefined,
+              "borderRightWidth": undefined,
+              "borderStartColor": undefined,
+              "borderStartWidth": undefined,
+              "borderStyle": undefined,
+              "borderTopColor": undefined,
+              "borderTopEndRadius": undefined,
+              "borderTopLeftRadius": undefined,
+              "borderTopRightRadius": undefined,
+              "borderTopStartRadius": undefined,
+              "borderTopWidth": undefined,
+              "borderWidth": undefined,
+              "bottom": undefined,
+              "end": undefined,
+              "height": undefined,
+              "left": undefined,
+              "margin": undefined,
+              "marginBottom": undefined,
+              "marginEnd": undefined,
+              "marginHorizontal": undefined,
+              "marginLeft": undefined,
+              "marginRight": undefined,
+              "marginStart": undefined,
+              "marginTop": undefined,
+              "marginVertical": undefined,
+              "maxHeight": undefined,
+              "maxWidth": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "opacity": undefined,
+              "overflow": undefined,
+              "padding": undefined,
+              "paddingBottom": undefined,
+              "paddingEnd": undefined,
+              "paddingHorizontal": undefined,
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+              "paddingStart": undefined,
+              "paddingTop": undefined,
+              "paddingVertical": undefined,
+              "position": undefined,
+              "right": undefined,
+              "start": undefined,
+              "top": undefined,
+              "width": undefined,
+              "zIndex": undefined,
+            },
+            Array [
+              Object {
+                "alignContent": undefined,
+                "alignItems": undefined,
+                "alignSelf": undefined,
+                "flex": undefined,
+                "flexBasis": undefined,
+                "flexDirection": undefined,
+                "flexGrow": undefined,
+                "flexShrink": undefined,
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              },
+              Object {
+                "alignContent": "flex-start",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+              },
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          - 
+          guacamole
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": undefined,
+            "paddingEnd": undefined,
+            "paddingHorizontal": undefined,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "backgroundColor": "#E0E0E0",
+              "height": 1,
+            },
+            Array [
+              Array [
+                undefined,
+                undefined,
+              ],
+              Array [
+                Object {
+                  "marginBottom": 4,
+                },
+                undefined,
+              ],
+            ],
+          ],
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomEndRadius": undefined,
+            "borderBottomLeftRadius": undefined,
+            "borderBottomRightRadius": undefined,
+            "borderBottomStartRadius": undefined,
+            "borderBottomWidth": undefined,
+            "borderColor": undefined,
+            "borderEndColor": undefined,
+            "borderEndWidth": undefined,
+            "borderLeftColor": undefined,
+            "borderLeftWidth": undefined,
+            "borderRadius": undefined,
+            "borderRightColor": undefined,
+            "borderRightWidth": undefined,
+            "borderStartColor": undefined,
+            "borderStartWidth": undefined,
+            "borderStyle": undefined,
+            "borderTopColor": undefined,
+            "borderTopEndRadius": undefined,
+            "borderTopLeftRadius": undefined,
+            "borderTopRightRadius": undefined,
+            "borderTopStartRadius": undefined,
+            "borderTopWidth": undefined,
+            "borderWidth": undefined,
+            "bottom": undefined,
+            "end": undefined,
+            "height": undefined,
+            "left": undefined,
+            "margin": undefined,
+            "marginBottom": undefined,
+            "marginEnd": undefined,
+            "marginHorizontal": undefined,
+            "marginLeft": undefined,
+            "marginRight": undefined,
+            "marginStart": undefined,
+            "marginTop": undefined,
+            "marginVertical": undefined,
+            "maxHeight": undefined,
+            "maxWidth": undefined,
+            "minHeight": undefined,
+            "minWidth": undefined,
+            "opacity": undefined,
+            "overflow": undefined,
+            "padding": undefined,
+            "paddingBottom": 4,
+            "paddingEnd": undefined,
+            "paddingHorizontal": 4,
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+            "paddingStart": undefined,
+            "paddingTop": undefined,
+            "paddingVertical": undefined,
+            "position": undefined,
+            "right": undefined,
+            "start": undefined,
+            "top": undefined,
+            "width": undefined,
+            "zIndex": undefined,
+          },
+          Array [
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "flex-end",
+            },
+            Array [
+              null,
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 16,
+              "letterSpacing": 0.5,
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "alignItems": "flex-end",
+              "color": "#389526",
+              "fontSize": 15,
+              "textAlign": "right",
+            },
+          ]
+        }
+      >
+        Price: $
+        15
+      </Text>
+    </View>
+  </View>
+</View>
+`;

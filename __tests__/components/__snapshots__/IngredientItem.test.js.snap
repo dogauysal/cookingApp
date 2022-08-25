@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ingredient item ingredientitem renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": undefined,
+        "borderBottomColor": undefined,
+        "borderBottomEndRadius": undefined,
+        "borderBottomLeftRadius": undefined,
+        "borderBottomRightRadius": undefined,
+        "borderBottomStartRadius": undefined,
+        "borderBottomWidth": undefined,
+        "borderColor": undefined,
+        "borderEndColor": undefined,
+        "borderEndWidth": undefined,
+        "borderLeftColor": undefined,
+        "borderLeftWidth": undefined,
+        "borderRadius": undefined,
+        "borderRightColor": undefined,
+        "borderRightWidth": undefined,
+        "borderStartColor": undefined,
+        "borderStartWidth": undefined,
+        "borderStyle": undefined,
+        "borderTopColor": undefined,
+        "borderTopEndRadius": undefined,
+        "borderTopLeftRadius": undefined,
+        "borderTopRightRadius": undefined,
+        "borderTopStartRadius": undefined,
+        "borderTopWidth": undefined,
+        "borderWidth": undefined,
+        "bottom": undefined,
+        "end": undefined,
+        "height": undefined,
+        "left": undefined,
+        "margin": undefined,
+        "marginBottom": undefined,
+        "marginEnd": undefined,
+        "marginHorizontal": undefined,
+        "marginLeft": undefined,
+        "marginRight": undefined,
+        "marginStart": undefined,
+        "marginTop": undefined,
+        "marginVertical": undefined,
+        "maxHeight": undefined,
+        "maxWidth": undefined,
+        "minHeight": undefined,
+        "minWidth": undefined,
+        "opacity": undefined,
+        "overflow": undefined,
+        "padding": undefined,
+        "paddingBottom": undefined,
+        "paddingEnd": undefined,
+        "paddingHorizontal": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingStart": undefined,
+        "paddingTop": undefined,
+        "paddingVertical": undefined,
+        "position": undefined,
+        "right": undefined,
+        "start": undefined,
+        "top": undefined,
+        "width": undefined,
+        "zIndex": undefined,
+      },
+      Array [
+        Object {
+          "alignContent": undefined,
+          "alignItems": undefined,
+          "alignSelf": undefined,
+          "flex": undefined,
+          "flexBasis": undefined,
+          "flexDirection": undefined,
+          "flexGrow": undefined,
+          "flexShrink": undefined,
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        },
+        Object {
+          "alignContent": "flex-start",
+          "flexDirection": "row",
+        },
+      ],
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 16,
+          "letterSpacing": 0.5,
+        },
+        Object {
+          "color": "#000000",
+        },
+        undefined,
+      ]
+    }
+  >
+    - 
+    cheese
+  </Text>
+</View>
+`;

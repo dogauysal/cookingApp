@@ -201,7 +201,7 @@ describe('delete stock', () => {
 
         let stockToBeDeleted = { ...stocks[1] };
 
-        const mockedRespnose: AxiosResponse = {
+        const mockedResponse: AxiosResponse = {
             data: stockToBeDeleted,
             status: 200,
             statusText: 'OK',
@@ -209,11 +209,53 @@ describe('delete stock', () => {
             config: {}
         }
 
-        mockedAxios.delete.mockResolvedValueOnce(mockedRespnose)
+        mockedAxios.delete.mockResolvedValueOnce(mockedResponse)
 
         const data = await StocksService.delete(stockToBeDeleted.id)
         expect(axios.delete).toHaveBeenCalled()
         expect(axios).not.toBeNull()
         expect(data.id).toEqual(stockToBeDeleted.id)
+    })
+})
+
+describe('get recipes by id format', () => {
+    test('should return new array list', () => {
+        const mockedResponse = [
+            {
+                42: {
+                    "name": "Carne Asada Bowl",
+                    "price": 15,
+                    "ingredients": [
+                        "salt",
+                        "chicken",
+                        "steak",
+                        "farro",
+                        "black_beans",
+                        "guacamole"
+                    ],
+                    "has_cheese": false,
+                    "has_salt": true
+                },
+                84: {
+                    "name": "Pollo Quesedilla",
+                    "price": 12,
+                    "ingredients": [
+                        "salt",
+                        "chicken",
+                        "black_beans",
+                        "guacamole",
+                        "cheese"
+                    ],
+                    "has_cheese": true,
+                    "has_salt": true
+                }
+            }
+        ]
+
+        mockedAxios.get.mockResolvedValueOnce(mockedResponse)
+        const data = RecipeService.convertToRecipesById(recipes)
+        console.log(data)
+        expect(axios.get).not.toHaveBeenCalled()
+        expect(data).not.toEqual(recipes)
     })
 })

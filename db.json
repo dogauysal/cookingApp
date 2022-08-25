@@ -46,14 +46,19 @@
   ],
   "stock": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Chicken",
+      "kg": 2
+    },
+    {
+      "id": 5,
+      "name": "Dd",
       "kg": 4
     },
     {
-      "id": "2",
-      "name": "Steak",
-      "kg": 4
+      "id": 7636,
+      "name": "TREC",
+      "kg": 2
     }
   ]
 }

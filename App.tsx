@@ -30,6 +30,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import { AuthProvider } from './src/context/AuthContext';
+import DataProvider from './src/context/DataContext';
 import RootStack from './src/routes/RootStack';
 import agent from './src/services/agent';
 
@@ -44,30 +45,14 @@ const App = () => {
 
   return (
     <AuthProvider>
-      <NavigationContainer>
-        <RootStack />
-      </NavigationContainer>
+      <DataProvider>
+        <NavigationContainer>
+          <RootStack />
+        </NavigationContainer>
+      </DataProvider>
     </AuthProvider>
   );
 };
 
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
 
 export default App;

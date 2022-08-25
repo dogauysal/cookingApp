@@ -1,26 +1,33 @@
 import axios, { AxiosResponse } from 'axios';
 import { IRecipe } from '../models/IRecipe';
 import { IStock } from '../models/IStock';
-
-axios.defaults.baseURL = "http://localhost:3000"
-
-const responseBody = (response: AxiosResponse) => response.data
+import HttpClient from '../utils/HttpClient';
 
 const RecipeService = {
-    getAll: (): Promise<IRecipe[]> => axios.get("/recipe").then(responseBody),
-    getById: (id: number): Promise<IRecipe> => axios.get(`/recipe/${id}`).then(responseBody)
+    getAll: () => HttpClient.get<IRecipe[]>('/recipe'),
+    getById: (id: number) => HttpClient.get<IRecipe>(`/recipe/${id}`),
+    convertToRecipesById: (recipes: IRecipe[]) => {
+        return Object.assign({}, ...recipes.map((x) => ({
+            [x.id]: {
+                name: x.name,
+                price: x.price,
+                ingredients: x.ingredients,
+                has_cheese: x.has_cheese,
+                has_salt: x.has_salt
+            }
+        })))
+    }
 }
 
 const StocksService = {
-    getAll: (): Promise<IStock[]> => axios.get("/stock").then(responseBody),
-    getById: (id: number): Promise<IStock> => axios.get(`/stock/${id}`).then(responseBody),
-    create: (stock: IStock): Promise<IStock> => axios.post('/stock', stock).then(responseBody),
-    update: (stock: IStock): Promise<IStock> => axios.put(`/stock/${stock.id}`, stock).then(responseBody),
-    delete: (id: number): Promise<IStock> => axios.delete(`/stock/${id}`).then(responseBody)
+    getAll: () => HttpClient.get<IStock[]>("/stock"),
+    getById: (id: number) => HttpClient.get<IStock>(`/stock/${id}`),
+    create: (stock: IStock) => HttpClient.post<IStock>('/stock', stock),
+    update: (stock: IStock) => HttpClient.put<IStock>(`/stock/${stock.id}`, stock),
+    delete: (id: number) => HttpClient.delete<IStock>(`/stock/${id}`, {})
 }
-
 
 export default {
     RecipeService,
-    StocksService
+    StocksService,
 }

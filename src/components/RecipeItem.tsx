@@ -2,10 +2,8 @@ import React from "react";
 import { StyleSheet, View } from "react-native";
 import { Box, Text } from '@react-native-material/core'
 import { Divider, VStack } from "react-native-flex-layout";
-import { IStock } from "../models/IStock";
 import { IRecipe } from "../models/IRecipe";
 import Ingredient from "./Ingredient";
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 interface IProps {
     recipe: IRecipe

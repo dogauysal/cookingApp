@@ -2,14 +2,14 @@ import React, { useContext } from 'react'
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
 import { AuthContext } from '../context/AuthContext';
 import StocksScreen from '../screens/StocksScreen';
-import StockDetailScreen from '../screens/StockDetailScreen';
 import AuthScreen from '../screens/AuthScreen';
 import RecipesScreen from '../screens/RecipesScreen';
-import { TouchableOpacity } from 'react-native';
+import { TouchableOpacity, TouchableOpacityBase } from 'react-native';
 import Icon from "react-native-vector-icons/MaterialCommunityIcons"
+import { Text } from '@react-native-material/core';
 
 const RootStack = () => {
-    const { authToken } = useContext(AuthContext)
+    const { authToken, signOut } = useContext(AuthContext)
 
     const Stack = createNativeStackNavigator();
 
@@ -31,20 +31,21 @@ const RootStack = () => {
 
                 })}
             />
-            {authToken ?
-                (<Stack.Screen
-                    name="Stocks"
-                    component={StocksScreen}
-                />) : (
-                    <Stack.Screen
-                        name="Auth"
-                        component={AuthScreen}
-                    />
-                )
-            }
-
-
-
+            <Stack.Screen
+                name="Stocks"
+                component={StocksScreen}
+                options={{
+                    headerRight: () => (
+                        <TouchableOpacity onPress={() => signOut()}><Text>Logout</Text></TouchableOpacity>
+                    )
+                }}
+                navigationKey={authToken ? 'public' : 'private'}
+            />
+            <Stack.Screen
+                navigationKey={authToken ? 'private' : 'public'}
+                name="Auth"
+                component={AuthScreen}
+            />
         </Stack.Navigator>
     )
 }

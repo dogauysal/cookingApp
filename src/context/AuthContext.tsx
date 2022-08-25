@@ -1,7 +1,10 @@
 import React, { createContext, ReactNode, useContext, useEffect, useMemo, useReducer } from 'react';
-import IAuth from '../models/IAuth';
 import authReducer from '../reducers/AuthReducer';
 import AsyncStorage from '../storage/AsyncStorage'
+
+interface IProps {
+    children: ReactNode
+}
 
 export const AuthContext = createContext({
     authToken: null,
@@ -19,7 +22,7 @@ export const useAuthorization = () => {
     return context
 }
 
-export const AuthProvider = ({ children }) => {
+export const AuthProvider: React.FC<IProps> = ({ children }) => {
     const [state, dispatch] = useReducer(authReducer, {
         authToken: null
     })
@@ -44,9 +47,8 @@ export const AuthProvider = ({ children }) => {
     }, [state, dispatch])
 
     const actions = useMemo(() => ({
-        signIn: async (token: any) => {
+        signIn: async (token: string) => {
             dispatch({ type: "SIGN_IN", token })
-            await setToken(token)
         },
         signOut: async () => {
             dispatch({ type: 'SIGN_OUT' });

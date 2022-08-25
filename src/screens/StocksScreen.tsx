@@ -1,26 +1,51 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Box, Button, Flex, TextInput, VStack } from "@react-native-material/core"
 import agent from '../services/agent'
 import { IStock } from '../models/IStock';
 import StockItem from '../components/StockItem';
 import NumericInput from 'react-native-numeric-input';
 import { StyleSheet } from 'react-native';
+import { DataContext, DataContextType } from '../context/DataContext';
+
 
 const StocksScreen = () => {
-    const { StocksService } = agent;
-    const [stocks, setStocks] = useState<IStock[]>([])
 
+    const { stocks, createStock, getAllStocks } = useContext(DataContext) as DataContextType
+    const initialStockState: IStock = {
+        id: 0,
+        name: '',
+        kg: 0
+    }
+    const [newStock, setNewStock] = useState<IStock>(initialStockState);
 
-    useEffect(() => {
-        const fetchAllStocks = async () => {
-            await StocksService.getAll().then(res => {
-                setStocks(res)
-            })
+    const onTextChange = (value: string) => {
+        console.log(value)
+        if (value) {
+            setNewStock(currentState => ({
+                ...currentState,
+                name: value
+            }))
         }
+    }
 
-        fetchAllStocks()
+    const onNumericInputChange = (value: number) => {
+        if (value) {
+            setNewStock(currentState => ({
+                ...currentState,
+                kg: value
+            }))
+        }
+    }
+
+    const onSubmit = async () => {
+        if (newStock) {
+            await createStock(newStock)
+            setNewStock(initialStockState)
+        }
+    }
+    useEffect(() => {
+        getAllStocks()
     }, [])
-
 
 
     return (
@@ -32,13 +57,13 @@ const StocksScreen = () => {
             </VStack>
             <VStack style={styles.newStockContainer}>
                 <Box style={{ flex: 1, justifyContent: "center" }}>
-                    <TextInput />
+                    <TextInput value={newStock?.name} onChangeText={(value) => onTextChange(value)} />
                 </Box>
                 <Box style={{ flex: 2, justifyContent: "center", alignItems: "center" }}>
-                    <NumericInput totalHeight={40} totalWidth={100} type="plus-minus" />
+                    <NumericInput value={newStock?.kg} totalHeight={40} totalWidth={100} type="plus-minus" onChange={(value) => onNumericInputChange(value)} />
                 </Box>
                 <Box style={{ flex: 1, justifyContent: "center", margin: 5 }}>
-                    <Button title="Add" />
+                    <Button title="Add" disabled={!newStock?.name} onPress={() => onSubmit()} />
                 </Box>
             </VStack>
         </VStack>

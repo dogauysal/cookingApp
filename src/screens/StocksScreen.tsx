@@ -19,7 +19,7 @@ const StocksScreen = () => {
     const [newStock, setNewStock] = useState<IStock>(initialStockState);
 
     const onTextChange = (value: string) => {
-        console.log(value)
+
         if (value) {
             setNewStock(currentState => ({
                 ...currentState,

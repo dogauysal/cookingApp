@@ -254,7 +254,6 @@ describe('get recipes by id format', () => {
 
         mockedAxios.get.mockResolvedValueOnce(mockedResponse)
         const data = RecipeService.convertToRecipesById(recipes)
-        console.log(data)
         expect(axios.get).not.toHaveBeenCalled()
         expect(data).not.toEqual(recipes)
     })

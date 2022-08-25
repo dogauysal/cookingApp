@@ -12,8 +12,6 @@ const AuthScreen = ({ navigation }) => {
     const { signIn } = useAuthorization()
 
     const authenticate = async () => {
-
-        await agent.RecipeService.getAll()
         const token = TokenGenerator.generateToken()
 
         await HttpClient.setBearerToken(token)

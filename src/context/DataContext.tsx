@@ -46,7 +46,7 @@ const DataProvider: React.FC<IProps> = ({ children }) => {
                 setStocks([...stocks, newStock])
             }
         }).catch(err => {
-            console.log("err")
+            console.log(err)
         })
 
     }
@@ -69,7 +69,7 @@ const DataProvider: React.FC<IProps> = ({ children }) => {
     }
 
     const deleteStock = async (id: number) => {
-        console.log(`delete id ü: ${id}`)
+
         await StocksService.delete(id).then(res => {
             if (res) {
                 let _stocks = stocks.filter(s => s.id !== id)

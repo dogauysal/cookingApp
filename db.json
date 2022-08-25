@@ -48,12 +48,12 @@
     {
       "id": "1",
       "name": "Chicken",
-      "kg": 3
+      "kg": 4
     },
     {
       "id": "2",
       "name": "Steak",
-      "kg": 5
+      "kg": 4
     }
   ]
 }

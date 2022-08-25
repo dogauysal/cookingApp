@@ -19,6 +19,7 @@ const StocksService = {
     delete: (id: number): Promise<IStock> => axios.delete(`/stock/${id}`).then(responseBody)
 }
 
+
 export default {
     RecipeService,
     StocksService

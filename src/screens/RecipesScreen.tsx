@@ -5,6 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import RecipeItem from '../components/RecipeItem'
 import { IRecipe } from '../models/IRecipe'
 import agent from '../services/agent'
+
 const RecipesScreen = () => {
 
     const [recipes, setRecipes] = useState<IRecipe[]>([])
@@ -25,7 +26,7 @@ const RecipesScreen = () => {
 
     const renderRecipeItem = (recipe: IRecipe) => {
         return (
-            <RecipeItem recipe={recipe} />
+            <RecipeItem key={recipe.id} recipe={recipe} />
         )
     }
     return (
@@ -46,6 +47,8 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         flexDirection: "row",
+        margin: 5,
+
     }
 })
 

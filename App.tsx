@@ -8,6 +8,7 @@
  * @format
  */
 
+import { IconComponentProvider } from '@react-native-material/core';
 import { NavigationContainer } from '@react-navigation/native';
 import React, { useEffect, type PropsWithChildren } from 'react';
 
@@ -28,6 +29,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import { AuthProvider } from './src/context/AuthContext';
 import RootStack from './src/routes/RootStack';
 import agent from './src/services/agent';
 
@@ -41,10 +43,11 @@ const App = () => {
   };
 
   return (
-    <NavigationContainer>
-      <RootStack />
-    </NavigationContainer>
-
+    <AuthProvider>
+      <NavigationContainer>
+        <RootStack />
+      </NavigationContainer>
+    </AuthProvider>
   );
 };
 
